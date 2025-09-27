@@ -1,6 +1,6 @@
 .gcloudignore
 .gitignore
-Dockerfile
+
 pyvenv.cfg
 # Ignore the virtual environment folders
 Lib/
@@ -8,4 +8,5 @@ Include/
 Scripts/
 # Ignore Python cache
 __pycache__/
+
 *.pyc
