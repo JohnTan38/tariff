@@ -33,7 +33,7 @@ PAGE = r"""
     h1 { margin: 0 0 10px; font-size: 26px; letter-spacing: .2px; display:flex; align-items:center; justify-content:space-between; }
     p { color: var(--muted); }
     .theme-btn { background:transparent; border:1px solid var(--border); border-radius:12px; padding:8px 10px; cursor:pointer; display:inline-flex; align-items:center; gap:8px; color:var(--text); }
-    .drop { border: 2px dashed var(--border); border-radius: 16px; padding: 28px; text-align: center; transition: .2s; background:var(--thead); }
+    .drop { display: block; width: 95%; min-height: 180px; border: 2px dashed var(--border); border-radius: 16px; padding: 28px; text-align: center; transition: .2s; background:var(--thead); }
     .drop.dragover { border-color: var(--accent); }
     .btn { display:inline-flex; align-items:center; gap:10px; background: var(--accent); color:#fff; padding: 10px 14px; border-radius: 12px; text-decoration:none; border:0; cursor:pointer; font-weight: 600; }
     .btn:focus { outline: 2px solid var(--text); outline-offset: 2px; }
