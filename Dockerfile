@@ -16,4 +16,6 @@ COPY . .
 # Command to run the application
 # Assumes your Flask app instance is named 'app' in 'app.py'
 # Gunicorn will listen on the port provided by Cloud Run through the $PORT environment variable
-CMD ["gunicorn", "--bind", "0.0.0.0:$PORT", "app:app"]
+# ...existing code...
+# Use a shell form so $PORT is expanded
+CMD ["sh", "-c", "gunicorn --bind 0.0.0.0:$PORT app:app"]

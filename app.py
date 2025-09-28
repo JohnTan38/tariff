@@ -1,4 +1,4 @@
-# app_tariff.py
+# app.py
 import os
 import io
 from datetime import datetime
@@ -10,7 +10,8 @@ from werkzeug.utils import secure_filename
 # ------------------------- Flask + Constants -------------------------
 app = Flask(__name__)
 app.secret_key = "replace-me"
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "outputs")
+#OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "outputs")
+OUTPUT_DIR = "/tmp" # Use /tmp for environments like Google Cloud Run
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 ALLOWED_EXTENSIONS = {'xlsx'}
 
@@ -714,5 +715,5 @@ def upload_file():
 
 # ------------------------- Main -------------------------
 if __name__ == "__main__":
-    # Run with: python app_tariff.py
+    # Run with: python app.py
     app.run(host="0.0.0.0", port=5000, debug=True)
