@@ -92,7 +92,7 @@ tariff/
 ├── .env.example      # Environment variables template
 ├── package.json      # Project dependencies
 └── README.md         # This file
-
+```
 
 ## 🧪 Testing
 
