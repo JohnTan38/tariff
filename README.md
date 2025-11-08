@@ -95,6 +95,7 @@ tariff/
 
 ## 🧪 Testing
 Run the test suite:
+```bash
 npm test
 # or
 yarn test
