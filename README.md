@@ -94,8 +94,8 @@ tariff/
 └── README.md         # This file
 
 ## 🧪 Testing
-Run the test suite:
 ```bash
+Run the test suite:
 npm test
 # or
 yarn test
@@ -121,5 +121,4 @@ For support, please open an issue in the GitHub repository or contact the mainta
 
 
 Note: This project is for educational and informational purposes. Always consult with customs authorities and trade professionals for official tariff information.
-
  
