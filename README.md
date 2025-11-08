@@ -93,32 +93,31 @@ tariff/
 ├── package.json      # Project dependencies
 └── README.md         # This file
 
+
 ## 🧪 Testing
-```bash
+
 Run the test suite:
-npm test
-# or
-yarn test
+
+```bash
 npm test
 # or
 yarn test
 
-## 📄 License
+
+📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👤 Author
+👤 Author
 JohnTan38
 
 GitHub: @JohnTan38
 
-## 🙏 Acknowledgments
+🙏 Acknowledgments
 Trade data provided by customs authorities
 Currency conversion APIs
 Open-source community for various libraries and tools
-
-## 📞 Support
+📞 Support
 For support, please open an issue in the GitHub repository or contact the maintainer.
-
 
 Note: This project is for educational and informational purposes. Always consult with customs authorities and trade professionals for official tariff information.
  
