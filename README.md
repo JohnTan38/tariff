@@ -23,7 +23,7 @@ A lightweight Flask web app that converts carrier tariff Excel files (.xlsx) int
 
 **Walkthrough Video (6s):**
 ![alt text](https://github.com/JohnTan38/tariff/blob/master/tariff-ezgif.com-optimize.gif?raw=true)
-[![Watch video](https://img.youtube.com/vi/91T_Yp8R-Fk/hqdefault.jpg)](https://youtu.be/91T_Yp8R-Fk)
+<!-- [![Watch video](https://img.youtube.com/vi/91T_Yp8R-Fk/hqdefault.jpg)](https://youtu.be/91T_Yp8R-Fk) -->
 <video controls src="sandbox:/mnt/data/dms_tariff_walkthrough.webm" width="600"></video>
 
 
