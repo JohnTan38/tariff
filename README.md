@@ -28,7 +28,7 @@ A lightweight Flask web app that converts carrier tariff Excel files (.xlsx) int
 **Dark mode:**
 
 **Dark mode:**
-
+![alt text](https://github.com/JohnTan38/tariff/blob/master/dark.png?raw=true)
 ![](sandbox:/mnt/data/dark.png)
 
 **Light mode:**
